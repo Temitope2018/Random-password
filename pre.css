@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-size: 1rem;
+    background-color: rgba(3, 3, 39, 0.945);
+    }
+.project{
+    width: 90%;
+    max-width: 400px;
+    margin: 7em 0 0 5em;
+    
+}
+@media (max-width:400px){
+    .project{
+        margin-left: 1em;
+    }
+}
+.generate{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: .5px;
+    font-weight: 400;
+}
+.random{
+    margin-top: .2em;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-bottom: 2.25px solid rgba(0, 128, 0, 0.63);
+    width: 41%;
+    padding-bottom: .2em;
+}
+@media (max-width:400px){
+    .random{
+        width: 55%;
+    }
+}
+.sectionA{
+    margin-top: .8em;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 50);
+    border: 1px solid white;
+    border-width: thick;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#password{
+    border: none;
+    outline: none;
+    padding: .05em .7em;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#copied{
+   margin-right: .5em;
+   color: green;
+   font-weight: bold;
+   cursor: pointer;
+}
+#copied:hover{
+    color: rgba(0, 128, 0, 0.87);
+}
+#copied:active{
+    color: rgb(7, 179, 7);
+}
+.sectionB{
+    margin-top: .8em;
+    width: 50%;
+    background-color: rgb(5, 102, 5);
+    padding: .3em .7em;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 50);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.sectionB:hover{
+    background-color: rgba(0, 128, 0, 0.87);
+}
+.sectionB:active{
+    background-color: rgba(17, 235, 17, 0.61);
+}
+#button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 100;
+    letter-spacing: .5px;
+    font-size: .8rem;
+    opacity: .8;
+    margin-left: .2em;
+    cursor: pointer;
+}
+
+#starbolt{
+    color: white;
+    opacity: .8;
+}
